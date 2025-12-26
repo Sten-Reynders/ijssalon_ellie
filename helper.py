@@ -20,3 +20,7 @@ def onderstreep(tekst=""):
     
     return uit 
 
+def som(inkomsten_dict):
+    totaal_values = sum (inkomsten_dict.values())
+    return totaal_values
+
